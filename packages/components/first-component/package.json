@@ -1,7 +1,7 @@
 {
-  "name": "@myrealtrip/web-ui-first-component",
+  "name": "@yichangmin/web-ui-first-component",
   "version": "0.0.1",
-  "description": "myrealtrip/web-ui-first-component",
+  "description": "yichangmin/web-ui-first-component",
   "keywords": [
     "myrealtrip"
   ],
@@ -9,7 +9,7 @@
   "packageManager": "yarn@3.2.4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myrealtrip/dubai.git",
+    "url": "git+https://github.com/yichangmin/dubai.git",
     "directory": "packages/components/first-component"
   },
   "main": "src/index.ts",

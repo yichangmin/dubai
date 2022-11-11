@@ -1,5 +1,5 @@
 {
-  "name": "frontend-dubai",
+  "name": "dubai",
   "packageManager": "yarn@3.2.4",
   "workspaces": [
     "packages/**/*"

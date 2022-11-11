@@ -1,5 +1,5 @@
 import React from 'react';
-import { FirstComponent } from '@myrealtrip/web-ui-first-component';
+import { FirstComponent } from '@yichangmin/web-ui-first-component';
 
 export interface SecondComponentProps {
   name: string;

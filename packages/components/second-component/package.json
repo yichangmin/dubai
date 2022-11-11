@@ -1,5 +1,5 @@
 {
-  "name": "@myrealtrip/web-ui-second-component",
+  "name": "@yichangmin/web-ui-second-component",
   "version": "0.0.1",
   "description": "myrealtrip/web-ui-second-component",
   "keywords": [
@@ -9,7 +9,7 @@
   "packageManager": "yarn@3.2.4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myrealtrip/dubai.git",
+    "url": "git+https://github.com/yichangmin/dubai.git",
     "directory": "packages/components/second-component"
   },
   "main": "src/index.ts",
@@ -18,7 +18,7 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@myrealtrip/web-ui-first-component": "workspace:*",
+    "@yichangmin/web-ui-first-component": "workspace:*",
     "react": ">=18",
     "react-dom": ">=18"
   },

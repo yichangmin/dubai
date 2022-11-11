@@ -1926,96 +1926,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@myrealtrip/web-ui-first-component@workspace:*, @myrealtrip/web-ui-first-component@workspace:packages/components/first-component":
-  version: 0.0.0-use.local
-  resolution: "@myrealtrip/web-ui-first-component@workspace:packages/components/first-component"
-  dependencies:
-    "@babel/core": ^7.20.2
-    "@babel/preset-env": ^7.15.6
-    "@babel/preset-typescript": ^7.15.0
-    "@rollup/plugin-babel": ^6.0.2
-    "@rollup/plugin-commonjs": ^23.0.2
-    "@rollup/plugin-node-resolve": ^15.0.1
-    "@storybook/react": ^6.5.13
-    "@types/node": ^10.11.0
-    "@types/react": ^18.0.1
-    react: ">=18"
-    react-dom: ">=18"
-    rimraf: ^2.6.2
-    rollup: ^3.2.5
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-terser: ^7.0.2
-    rollup-plugin-typescript2: ^0.34.1
-    storybook: ^6.5.13
-    tslib: ^2.3.0
-    typescript: ^4.3.5
-  peerDependencies:
-    react: ">=18"
-    react-dom: ">=18"
-  languageName: unknown
-  linkType: soft
-
-"@myrealtrip/web-ui-second-component@workspace:*, @myrealtrip/web-ui-second-component@workspace:packages/components/second-component":
-  version: 0.0.0-use.local
-  resolution: "@myrealtrip/web-ui-second-component@workspace:packages/components/second-component"
-  dependencies:
-    "@babel/core": ^7.20.2
-    "@babel/preset-env": ^7.15.6
-    "@babel/preset-typescript": ^7.15.0
-    "@myrealtrip/web-ui-first-component": "workspace:*"
-    "@rollup/plugin-babel": ^6.0.2
-    "@rollup/plugin-commonjs": ^23.0.2
-    "@rollup/plugin-node-resolve": ^15.0.1
-    "@storybook/react": ^6.5.13
-    "@types/node": ^10.11.0
-    "@types/react": ^18.0.1
-    react: ">=18"
-    react-dom: ">=18"
-    rimraf: ^2.6.2
-    rollup: ^3.2.5
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-terser: ^7.0.2
-    rollup-plugin-typescript2: ^0.34.1
-    storybook: ^6.5.13
-    tslib: ^2.3.0
-    typescript: ^4.3.5
-  peerDependencies:
-    react: ">=18"
-    react-dom: ">=18"
-  languageName: unknown
-  linkType: soft
-
-"@myrealtrip/web-ui@workspace:packages/components/root":
-  version: 0.0.0-use.local
-  resolution: "@myrealtrip/web-ui@workspace:packages/components/root"
-  dependencies:
-    "@babel/core": ^7.20.2
-    "@babel/preset-env": ^7.15.6
-    "@babel/preset-typescript": ^7.15.0
-    "@myrealtrip/web-ui-first-component": "workspace:*"
-    "@myrealtrip/web-ui-second-component": "workspace:*"
-    "@rollup/plugin-babel": ^6.0.2
-    "@rollup/plugin-commonjs": ^23.0.2
-    "@rollup/plugin-node-resolve": ^15.0.1
-    "@storybook/react": ^6.5.13
-    "@types/node": ^10.11.0
-    "@types/react": ^18.0.1
-    react: ">=18"
-    react-dom: ">=18"
-    rimraf: ^2.6.2
-    rollup: ^3.2.5
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-terser: ^7.0.2
-    rollup-plugin-typescript2: ^0.34.1
-    storybook: ^6.5.13
-    tslib: ^2.3.0
-    typescript: ^4.3.5
-  peerDependencies:
-    react: ">=18"
-    react-dom: ">=18"
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -4424,6 +4334,96 @@ __metadata:
   checksum: 6e08761fee8ec99918d8c80b60a0eb8c52e3c383ceea0a00a680fc226d17c0ec86d4472afeed1be376495b002cac0487043ddba44d7a4b0995f9cc9f98077a61
   languageName: node
   linkType: hard
+
+"@yichangmin/web-ui-first-component@workspace:*, @yichangmin/web-ui-first-component@workspace:packages/components/first-component":
+  version: 0.0.0-use.local
+  resolution: "@yichangmin/web-ui-first-component@workspace:packages/components/first-component"
+  dependencies:
+    "@babel/core": ^7.20.2
+    "@babel/preset-env": ^7.15.6
+    "@babel/preset-typescript": ^7.15.0
+    "@rollup/plugin-babel": ^6.0.2
+    "@rollup/plugin-commonjs": ^23.0.2
+    "@rollup/plugin-node-resolve": ^15.0.1
+    "@storybook/react": ^6.5.13
+    "@types/node": ^10.11.0
+    "@types/react": ^18.0.1
+    react: ">=18"
+    react-dom: ">=18"
+    rimraf: ^2.6.2
+    rollup: ^3.2.5
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-terser: ^7.0.2
+    rollup-plugin-typescript2: ^0.34.1
+    storybook: ^6.5.13
+    tslib: ^2.3.0
+    typescript: ^4.3.5
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  languageName: unknown
+  linkType: soft
+
+"@yichangmin/web-ui-second-component@workspace:*, @yichangmin/web-ui-second-component@workspace:packages/components/second-component":
+  version: 0.0.0-use.local
+  resolution: "@yichangmin/web-ui-second-component@workspace:packages/components/second-component"
+  dependencies:
+    "@babel/core": ^7.20.2
+    "@babel/preset-env": ^7.15.6
+    "@babel/preset-typescript": ^7.15.0
+    "@rollup/plugin-babel": ^6.0.2
+    "@rollup/plugin-commonjs": ^23.0.2
+    "@rollup/plugin-node-resolve": ^15.0.1
+    "@storybook/react": ^6.5.13
+    "@types/node": ^10.11.0
+    "@types/react": ^18.0.1
+    "@yichangmin/web-ui-first-component": "workspace:*"
+    react: ">=18"
+    react-dom: ">=18"
+    rimraf: ^2.6.2
+    rollup: ^3.2.5
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-terser: ^7.0.2
+    rollup-plugin-typescript2: ^0.34.1
+    storybook: ^6.5.13
+    tslib: ^2.3.0
+    typescript: ^4.3.5
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  languageName: unknown
+  linkType: soft
+
+"@yichangmin/web-ui@workspace:packages/components/root":
+  version: 0.0.0-use.local
+  resolution: "@yichangmin/web-ui@workspace:packages/components/root"
+  dependencies:
+    "@babel/core": ^7.20.2
+    "@babel/preset-env": ^7.15.6
+    "@babel/preset-typescript": ^7.15.0
+    "@rollup/plugin-babel": ^6.0.2
+    "@rollup/plugin-commonjs": ^23.0.2
+    "@rollup/plugin-node-resolve": ^15.0.1
+    "@storybook/react": ^6.5.13
+    "@types/node": ^10.11.0
+    "@types/react": ^18.0.1
+    "@yichangmin/web-ui-first-component": "workspace:*"
+    "@yichangmin/web-ui-second-component": "workspace:*"
+    react: ">=18"
+    react-dom: ">=18"
+    rimraf: ^2.6.2
+    rollup: ^3.2.5
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-terser: ^7.0.2
+    rollup-plugin-typescript2: ^0.34.1
+    storybook: ^6.5.13
+    tslib: ^2.3.0
+    typescript: ^4.3.5
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  languageName: unknown
+  linkType: soft
 
 "abbrev@npm:^1.0.0":
   version: 1.1.1
@@ -6915,6 +6915,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dubai@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "dubai@workspace:."
+  dependencies:
+    "@babel/core": ^7.20.2
+    "@mdx-js/react": ^1.6.22
+    "@myrealtrip/eslint-config-myrealtrip-typescript": ^1.5.1
+    "@storybook/addon-actions": ^6.5.13
+    "@storybook/addon-docs": ^6.5.13
+    "@storybook/addon-essentials": ^6.5.13
+    "@storybook/addon-interactions": ^6.5.13
+    "@storybook/addon-links": ^6.5.13
+    "@storybook/addons": ^6.5.13
+    "@storybook/builder-webpack4": ^6.5.13
+    "@storybook/manager-webpack4": ^6.5.13
+    "@storybook/react": ^6.5.13
+    "@storybook/testing-library": ^0.0.13
+    "@storybook/theming": ^6.5.13
+    "@typescript-eslint/parser": ^5.42.1
+    "@yarnpkg/sdks": ^3.0.0-rc.27
+    babel-loader: ^8.3.0
+    eslint: ^8.27.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    storybook: ^6.5.13
+    turbo: ^1.6.3
+    typescript: ^4.8.4
+  languageName: unknown
+  linkType: soft
+
 "duplexer3@npm:^0.1.4":
   version: 0.1.5
   resolution: "duplexer3@npm:0.1.5"
@@ -8002,36 +8032,6 @@ __metadata:
   checksum: 6080eba0793dce32f475141fb3d54cc15f84ee52e420ee22ac3ab0ad639dc95a1875bc6eb9c0e1140e94972a36a89dc5542491b85f1ab8df0c126241e0f1a61b
   languageName: node
   linkType: hard
-
-"frontend-dubai@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "frontend-dubai@workspace:."
-  dependencies:
-    "@babel/core": ^7.20.2
-    "@mdx-js/react": ^1.6.22
-    "@myrealtrip/eslint-config-myrealtrip-typescript": ^1.5.1
-    "@storybook/addon-actions": ^6.5.13
-    "@storybook/addon-docs": ^6.5.13
-    "@storybook/addon-essentials": ^6.5.13
-    "@storybook/addon-interactions": ^6.5.13
-    "@storybook/addon-links": ^6.5.13
-    "@storybook/addons": ^6.5.13
-    "@storybook/builder-webpack4": ^6.5.13
-    "@storybook/manager-webpack4": ^6.5.13
-    "@storybook/react": ^6.5.13
-    "@storybook/testing-library": ^0.0.13
-    "@storybook/theming": ^6.5.13
-    "@typescript-eslint/parser": ^5.42.1
-    "@yarnpkg/sdks": ^3.0.0-rc.27
-    babel-loader: ^8.3.0
-    eslint: ^8.27.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    storybook: ^6.5.13
-    turbo: ^1.6.3
-    typescript: ^4.8.4
-  languageName: unknown
-  linkType: soft
 
 "fs-extra@npm:^10.0.0, fs-extra@npm:^10.1.0":
   version: 10.1.0
