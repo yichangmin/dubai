@@ -1,0 +1,42 @@
+{
+  "name": "frontend-dubai",
+  "packageManager": "yarn@3.2.4",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@mdx-js/react": "^1.6.22",
+    "@myrealtrip/eslint-config-myrealtrip-typescript": "^1.5.1",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-docs": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/theming": "^6.5.13",
+    "@typescript-eslint/parser": "^5.42.1",
+    "@yarnpkg/sdks": "^3.0.0-rc.27",
+    "babel-loader": "^8.3.0",
+    "eslint": "^8.27.0",
+    "turbo": "^1.6.3",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^6.5.13"
+  }
+}
