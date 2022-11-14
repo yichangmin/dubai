@@ -9,7 +9,7 @@ export const FirstComponent: React.FC<FirstComponentProps> = ({ name, descriptio
   return (
     <div>
       <p>{name}</p>
-      <p>{description}</p>
+      <p>{`description! : ${description}`}</p>
     </div>
   );
 };
