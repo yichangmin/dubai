@@ -4,6 +4,10 @@ description: 'Sets up install'
 runs:
   using: composite
   steps:
+    - name: Install dependencies
+      shell: bash
+      run: yarn install --immutable --immutable-cache
+
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
@@ -16,7 +20,3 @@ runs:
       run: |
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
-    - name: Install dependencies
-      shell: bash
-      run: yarn install --immutable --immutable-cache
