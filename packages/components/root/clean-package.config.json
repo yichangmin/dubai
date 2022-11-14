@@ -9,7 +9,7 @@
         "require": "./dist/index.cjs.js",
         "types": "./dist/index.d.ts"
       },
-      "./package.json": "./package.config.json"
+      "./package.json": "./package.json"
     }
   }
 }

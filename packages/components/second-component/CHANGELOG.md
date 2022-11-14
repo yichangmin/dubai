@@ -1,5 +1,37 @@
 # @yichangmin/web-ui-second-component
 
+## 0.0.14
+
+### Patch Changes
+
+- ttttest
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.12
+
+## 0.0.13
+
+### Patch Changes
+
+- tttest
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.11
+
+## 0.0.12
+
+### Patch Changes
+
+- ttttest
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.10
+
+## 0.0.11
+
+### Patch Changes
+
+- ttttt
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.9
+
 ## 0.0.10
 
 ### Patch Changes

@@ -1,5 +1,29 @@
 # @yichangmin/web-ui-first-component
 
+## 0.0.12
+
+### Patch Changes
+
+- ttttest
+
+## 0.0.11
+
+### Patch Changes
+
+- tttest
+
+## 0.0.10
+
+### Patch Changes
+
+- ttttest
+
+## 0.0.9
+
+### Patch Changes
+
+- ttttt
+
 ## 0.0.8
 
 ### Patch Changes
