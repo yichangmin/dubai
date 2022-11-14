@@ -1,0 +1,14 @@
+name: 'Install'
+description: 'Sets up install'
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version-file: '.nvmrc'
+        registry-url: 'https://registry.npmjs.org'
+    - name: Install dependencies
+      shell: bash
+      run: yarn install --immutable --immutable-cache
