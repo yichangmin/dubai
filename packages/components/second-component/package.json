@@ -1,6 +1,6 @@
 {
   "name": "@yichangmin/web-ui-second-component",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "myrealtrip/web-ui-second-component",
   "keywords": [
     "myrealtrip"
@@ -12,7 +12,14 @@
     "url": "git+https://github.com/yichangmin/dubai.git",
     "directory": "packages/components/second-component"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"

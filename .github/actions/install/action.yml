@@ -11,11 +11,12 @@ runs:
         registry-url: 'https://registry.npmjs.org'
         cache: 'yarn'
 
+    - name: Set Git User
+      shell: bash
+      run: |
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
     - name: Setup Git User
       shell: bash
       run: yarn install
-    # - name: Set Git User
-    #   shell: bash
-    #   run: |
-    #     git config --global user.name "${{ github.actor }}"
-    #     git config --global user.email "${{ github.actor }}@users.noreply.github.com"
