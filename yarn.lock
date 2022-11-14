@@ -4646,7 +4646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yichangmin/web-ui-first-component@workspace:*, @yichangmin/web-ui-first-component@workspace:packages/components/first-component":
+"@yichangmin/web-ui-first-component@*, @yichangmin/web-ui-first-component@workspace:packages/components/first-component":
   version: 0.0.0-use.local
   resolution: "@yichangmin/web-ui-first-component@workspace:packages/components/first-component"
   dependencies:
@@ -4675,7 +4675,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@yichangmin/web-ui-second-component@workspace:*, @yichangmin/web-ui-second-component@workspace:packages/components/second-component":
+"@yichangmin/web-ui-second-component@*, @yichangmin/web-ui-second-component@workspace:packages/components/second-component":
   version: 0.0.0-use.local
   resolution: "@yichangmin/web-ui-second-component@workspace:packages/components/second-component"
   dependencies:
@@ -4688,7 +4688,7 @@ __metadata:
     "@storybook/react": ^6.5.13
     "@types/node": ^10.11.0
     "@types/react": ^18.0.1
-    "@yichangmin/web-ui-first-component": "workspace:*"
+    "@yichangmin/web-ui-first-component": "*"
     react: ">=18"
     react-dom: ">=18"
     rimraf: ^2.6.2
@@ -4718,8 +4718,8 @@ __metadata:
     "@storybook/react": ^6.5.13
     "@types/node": ^10.11.0
     "@types/react": ^18.0.1
-    "@yichangmin/web-ui-first-component": "workspace:*"
-    "@yichangmin/web-ui-second-component": "workspace:*"
+    "@yichangmin/web-ui-first-component": "*"
+    "@yichangmin/web-ui-second-component": "*"
     react: ">=18"
     react-dom: ">=18"
     rimraf: ^2.6.2

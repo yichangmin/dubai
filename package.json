@@ -35,7 +35,8 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "release": "changeset publish"
   },
   "dependencies": {
     "react": "^18.2.0",

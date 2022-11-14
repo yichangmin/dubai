@@ -1,6 +1,6 @@
 {
   "name": "@yichangmin/web-ui-second-component",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "myrealtrip/web-ui-second-component",
   "keywords": [
     "myrealtrip"
@@ -25,7 +25,7 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@yichangmin/web-ui-first-component": "workspace:*",
+    "@yichangmin/web-ui-first-component": "*",
     "react": ">=18",
     "react-dom": ">=18"
   },
