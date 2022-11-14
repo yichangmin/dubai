@@ -1,5 +1,16 @@
 # @yichangmin/web-ui
 
+## 0.0.10
+
+### Patch Changes
+
+- f2ee0e1: teafaf
+- test
+- Updated dependencies [f2ee0e1]
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.8
+  - @yichangmin/web-ui-second-component@0.0.10
+
 ## 0.0.9
 
 ### Patch Changes

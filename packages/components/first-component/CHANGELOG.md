@@ -1,5 +1,12 @@
 # @yichangmin/web-ui-first-component
 
+## 0.0.8
+
+### Patch Changes
+
+- f2ee0e1: teafaf
+- test
+
 ## 0.0.7
 
 ### Patch Changes
