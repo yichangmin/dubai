@@ -8,15 +8,15 @@ runs:
       shell: bash
       run: yarn install --immutable --immutable-cache
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version-file: '.nvmrc'
-        registry-url: 'https://registry.npmjs.org'
-        cache: 'yarn'
+    # - name: Setup Node.js
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version-file: '.nvmrc'
+    #     registry-url: 'https://registry.npmjs.org'
+    #     cache: 'yarn'
 
-    - name: Set Git User
-      shell: bash
-      run: |
-        git config --global user.name "${{ github.actor }}"
-        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+    # - name: Set Git User
+    #   shell: bash
+    #   run: |
+    #     git config --global user.name "${{ github.actor }}"
+    #     git config --global user.email "${{ github.actor }}@users.noreply.github.com"
