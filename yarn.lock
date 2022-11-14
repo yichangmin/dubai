@@ -2207,29 +2207,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@myrealtrip/eslint-config-myrealtrip-typescript@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "@myrealtrip/eslint-config-myrealtrip-typescript@npm:1.5.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40myrealtrip%2Feslint-config-myrealtrip-typescript%2F1.5.1%2F891828d3e504915167dc34d76e2bf16a2290f349"
-  dependencies:
-    eslint-config-airbnb-base: ^14.2.1
-  peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^4.29.3 || ^5.0.0
-    "@typescript-eslint/parser": ^4.29.3 || ^5.0.0
-    eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-jest: ^23.8.2
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ^7.21.5
-    eslint-plugin-react-hooks: ^4 || ^3 || ^2.3.0 || ^1.7.0
-    eslint-plugin-sonarjs: ^0.11.0
-    prettier: ^2.4.1
-    prettier-package-json: ^2.6.0
-  checksum: c8180e541a502e8f4700a78255d8f31517a15e721f5973af696c3f505e53047ad9a667098d3ee343a30e51e5511e5a473b0af09914ddf8cbadee3fd9b4dd0f68
-  languageName: node
-  linkType: hard
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -6595,13 +6572,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"confusing-browser-globals@npm:^1.0.10":
-  version: 1.0.11
-  resolution: "confusing-browser-globals@npm:1.0.11"
-  checksum: 3afc635abd37e566477f610e7978b15753f0e84025c25d49236f1f14d480117185516bdd40d2a2167e6bed8048641a9854964b9c067e3dcdfa6b5d0ad3c3a5ef
-  languageName: node
-  linkType: hard
-
 "console-browserify@npm:^1.1.0":
   version: 1.2.0
   resolution: "console-browserify@npm:1.2.0"
@@ -7422,7 +7392,6 @@ __metadata:
     "@changesets/get-release-plan": 3.0.12
     "@changesets/types": 5.1.0
     "@mdx-js/react": ^1.6.22
-    "@myrealtrip/eslint-config-myrealtrip-typescript": ^1.5.1
     "@storybook/addon-actions": ^6.5.13
     "@storybook/addon-docs": ^6.5.13
     "@storybook/addon-essentials": ^6.5.13
@@ -7780,20 +7749,6 @@ __metadata:
     escodegen: bin/escodegen.js
     esgenerate: bin/esgenerate.js
   checksum: 5aa6b2966fafe0545e4e77936300cc94ad57cfe4dc4ebff9950492eaba83eef634503f12d7e3cbd644ecc1bab388ad0e92b06fd32222c9281a75d1cf02ec6cef
-  languageName: node
-  linkType: hard
-
-"eslint-config-airbnb-base@npm:^14.2.1":
-  version: 14.2.1
-  resolution: "eslint-config-airbnb-base@npm:14.2.1"
-  dependencies:
-    confusing-browser-globals: ^1.0.10
-    object.assign: ^4.1.2
-    object.entries: ^1.1.2
-  peerDependencies:
-    eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
-    eslint-plugin-import: ^2.22.1
-  checksum: 858bea748a3c8685b52fcf2488e6a0b964022f8387f4ee1e69cb707d4fda2a409f09eb8eea658bcd83fae3519967d10208ba7576dd3d3202b8cf0b9d1a6e21eb
   languageName: node
   linkType: hard
 
@@ -11976,7 +11931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.assign@npm:^4.1.2, object.assign@npm:^4.1.4":
+"object.assign@npm:^4.1.4":
   version: 4.1.4
   resolution: "object.assign@npm:4.1.4"
   dependencies:
@@ -11988,7 +11943,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.entries@npm:^1.1.0, object.entries@npm:^1.1.2":
+"object.entries@npm:^1.1.0":
   version: 1.1.6
   resolution: "object.entries@npm:1.1.6"
   dependencies:
