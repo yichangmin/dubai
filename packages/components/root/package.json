@@ -1,6 +1,6 @@
 {
   "name": "@yichangmin/web-ui",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "myrealtrip/web-ui",
   "keywords": [
     "myrealtrip"
@@ -24,8 +24,8 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@yichangmin/web-ui-first-component": "*",
-    "@yichangmin/web-ui-second-component": "*",
+    "@yichangmin/web-ui-first-component": "workspace:*",
+    "@yichangmin/web-ui-second-component": "workspace:*",
     "react": ">=18",
     "react-dom": ">=18"
   },
@@ -49,8 +49,7 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "build": "rimraf dist && rollup -c --bundleConfigAsCjs",
-    "prepack": "clean-package",
-    "postpack": "clean-package restore"
+    "build": "rimraf dist && rollup -c --bundleConfigAsCjs && clean-package && yarn makecheet",
+    "makecheet": "yarn pack && tar zxvf package.tgz && rm package.tgz && mv package/package.json package.cheet.json"
   }
 }

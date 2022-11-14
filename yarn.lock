@@ -4646,7 +4646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yichangmin/web-ui-first-component@*, @yichangmin/web-ui-first-component@workspace:packages/components/first-component":
+"@yichangmin/web-ui-first-component@workspace:*, @yichangmin/web-ui-first-component@workspace:packages/components/first-component":
   version: 0.0.0-use.local
   resolution: "@yichangmin/web-ui-first-component@workspace:packages/components/first-component"
   dependencies:
@@ -4675,7 +4675,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@yichangmin/web-ui-second-component@*, @yichangmin/web-ui-second-component@workspace:packages/components/second-component":
+"@yichangmin/web-ui-second-component@workspace:*, @yichangmin/web-ui-second-component@workspace:packages/components/second-component":
   version: 0.0.0-use.local
   resolution: "@yichangmin/web-ui-second-component@workspace:packages/components/second-component"
   dependencies:
@@ -4688,7 +4688,7 @@ __metadata:
     "@storybook/react": ^6.5.13
     "@types/node": ^10.11.0
     "@types/react": ^18.0.1
-    "@yichangmin/web-ui-first-component": "*"
+    "@yichangmin/web-ui-first-component": "workspace:*"
     react: ">=18"
     react-dom: ">=18"
     rimraf: ^2.6.2
@@ -4718,8 +4718,8 @@ __metadata:
     "@storybook/react": ^6.5.13
     "@types/node": ^10.11.0
     "@types/react": ^18.0.1
-    "@yichangmin/web-ui-first-component": "*"
-    "@yichangmin/web-ui-second-component": "*"
+    "@yichangmin/web-ui-first-component": "workspace:*"
+    "@yichangmin/web-ui-second-component": "workspace:*"
     react: ">=18"
     react-dom: ">=18"
     rimraf: ^2.6.2
@@ -6230,17 +6230,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.1.0":
+"ci-info@npm:^3.1.0, ci-info@npm:^3.2.0":
   version: 3.6.1
   resolution: "ci-info@npm:3.6.1"
   checksum: e463ed7152e795467c298268d58974d5e769fc7a0da2f72a53480042e01809e87908544b883a073391f446f46045b0d656c4a1fda3796c93740cd2be1c2d5f6f
-  languageName: node
-  linkType: hard
-
-"ci-info@npm:^3.2.0":
-  version: 3.5.0
-  resolution: "ci-info@npm:3.5.0"
-  checksum: 7def3789706ec18db3dc371dc699bd0df12057d54b796201f50ba87200e0849d3d83c68da00ab2ab8cdd738d91b25ab9e31620588f8d7e64ffaa1f760fd121cf
   languageName: node
   linkType: hard
 
@@ -6663,25 +6656,25 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.25.1, core-js-compat@npm:^3.8.1":
-  version: 3.26.0
-  resolution: "core-js-compat@npm:3.26.0"
+  version: 3.26.1
+  resolution: "core-js-compat@npm:3.26.1"
   dependencies:
     browserslist: ^4.21.4
-  checksum: 120780ec33d441e476810abac9bf57199c2083006b179dc23d0ab0cfea096eff2a2fc3e9cb315d245735df661cfa4b76a8b8c37f5056fd02428a3cd2ea1d9f36
+  checksum: f222bce0002eae405327d68286e1d566037e8ac21906a47d7ecd15858adca7b12e82140db11dc43c8cc1fc066c5306120f3c27bfb2d7dbc2d20a72a2d90d38dc
   languageName: node
   linkType: hard
 
 "core-js-pure@npm:^3.23.3":
-  version: 3.26.0
-  resolution: "core-js-pure@npm:3.26.0"
-  checksum: bbf5fa65cf3368a25f9d9cc525863acc8082fa3797efc8dc514f85d7f4aa870f4999b68863f3c7b96ed0b062add261a448758e6d337626c2535ad89ee8481a92
+  version: 3.26.1
+  resolution: "core-js-pure@npm:3.26.1"
+  checksum: d88c40e5e29e413c11d1ef991a8d5b6a63f00bd94707af0f649d3fc18b3524108b202f4ae75ce77620a1557d1ba340bc3362b4f25d590eccc37cf80fc75f7cd4
   languageName: node
   linkType: hard
 
 "core-js@npm:^3.0.4, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
-  version: 3.26.0
-  resolution: "core-js@npm:3.26.0"
-  checksum: 0149eb9d3909fde9c17626af3a6e625c326e8598d0bb5e6c5b48a18e5fcd4eaf48d4964d873667d8148542ff590fb98eb3f93618da114ca54999d6bc0349734b
+  version: 3.26.1
+  resolution: "core-js@npm:3.26.1"
+  checksum: 0a01149f51ff1e9f41d1ea49cc4c9222047949ea597189ede7c4cf8cde3b097766b9c7615acc77c86fe65b4002f20b638a133dfba7b41dba830d707aeeed45ad
   languageName: node
   linkType: hard
 
@@ -6706,15 +6699,15 @@ __metadata:
   linkType: hard
 
 "cosmiconfig@npm:^7.0.0":
-  version: 7.0.1
-  resolution: "cosmiconfig@npm:7.0.1"
+  version: 7.1.0
+  resolution: "cosmiconfig@npm:7.1.0"
   dependencies:
     "@types/parse-json": ^4.0.0
     import-fresh: ^3.2.1
     parse-json: ^5.0.0
     path-type: ^4.0.0
     yaml: ^1.10.0
-  checksum: 4be63e7117955fd88333d7460e4c466a90f556df6ef34efd59034d2463484e339666c41f02b523d574a797ec61f4a91918c5b89a316db2ea2f834e0d2d09465b
+  checksum: c53bf7befc1591b2651a22414a5e786cd5f2eeaa87f3678a3d49d6069835a9d8d1aef223728e98aa8fec9a95bf831120d245096db12abe019fecb51f5696c96f
   languageName: node
   linkType: hard
 
@@ -8409,9 +8402,9 @@ __metadata:
   linkType: hard
 
 "flow-parser@npm:0.*":
-  version: 0.192.0
-  resolution: "flow-parser@npm:0.192.0"
-  checksum: 392e9581de8a754df62191ee4a67ee5f88937942b5e4a63be400606d31cb6c3b648c3af3dd720fa2aa0ae2ec00ec6091f915125c23d63a318d9f892d1d3de3e5
+  version: 0.193.0
+  resolution: "flow-parser@npm:0.193.0"
+  checksum: 70266e8972dcd6de36a6d7ca0f8efbc3a5a2b405e5b4bde44bd9e66408dd6d0372e77b51d131badddd2f91eff4e98ed91e3f97c21f22f5b0c2369ba91cbe2c97
   languageName: node
   linkType: hard
 
@@ -11176,11 +11169,11 @@ __metadata:
   linkType: hard
 
 "memfs@npm:^3.1.2":
-  version: 3.4.10
-  resolution: "memfs@npm:3.4.10"
+  version: 3.4.11
+  resolution: "memfs@npm:3.4.11"
   dependencies:
     fs-monkey: ^1.0.3
-  checksum: bee25e00682a440adedafb81277f1a192c31e27995236d899c5402511648645dec8a0a6c2753c36632d4522bce08ebbaa38dece15753589cbe98223a47aeab4c
+  checksum: 47a9b0ea5d96da7978ac190df1420340ff3d010e087b8e4e1a971b1913a82f892eb0603b71a1b913d833e9b919113e3a7e541fe366e759bb16ff30d5940c8bcb
   languageName: node
   linkType: hard
 
@@ -13847,8 +13840,8 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^3.2.5":
-  version: 3.2.5
-  resolution: "rollup@npm:3.2.5"
+  version: 3.3.0
+  resolution: "rollup@npm:3.3.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -13856,7 +13849,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 1779b778fe4b14f80a995a641d3a89a76e3651170536192022dce1821f1241ee49496353655aa812dc8f8334c89a302ad957b757d4370cf57e41ca270bb394fd
+  checksum: e46a45e857d6e0d10ec6a31ce68d29ed85c22bcda2897355b2e38b804637d862dcbfcb92e38250b6ab219eadf8e624eb33d5bd6554ed8b9bc4b10a173a6afce5
   languageName: node
   linkType: hard
 
