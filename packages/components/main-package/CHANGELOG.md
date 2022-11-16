@@ -1,5 +1,19 @@
 # @yichangmin/web-ui-second-component
 
+## 0.0.6
+
+### Patch Changes
+
+- Updated dependencies [5ae505b]
+- Updated dependencies [aa9ddfc]
+- Updated dependencies [a6e4b6e]
+- Updated dependencies [701dd80]
+- Updated dependencies [1e3436b]
+- Updated dependencies [eadfc59]
+- Updated dependencies [ccdcf99]
+  - @yichangmin/web-ui-first-component@1.0.2
+  - @yichangmin/web-ui-second-component@0.1.3
+
 ## 0.0.5
 
 ### Patch Changes
