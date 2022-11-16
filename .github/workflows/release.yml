@@ -18,14 +18,5 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: publish
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: yarn release
-          commit: 'version packages'
-          setupGitUser: false
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
-          NPM_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+      - name: Publish
+        run: yarn publish
