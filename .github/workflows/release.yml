@@ -43,8 +43,8 @@ jobs:
         if: steps.changesets.outputs.published != 'true'
         run: |
           git checkout main
-          pnpm version:dev
-          pnpm release:dev
+          yarn version:dev
+          yarn release:dev
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
