@@ -11,7 +11,6 @@
 ### Major Changes
 
 - 31cea63: release
-- 35f8501: release
 
 ## 0.0.2
 
