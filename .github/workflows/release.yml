@@ -5,6 +5,9 @@ on:
 jobs:
   release:
     name: Release
+    permissions:
+      packages: write
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -18,5 +21,14 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Publish
-        run: yarn release
+      - name: publish
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: yarn release
+          commit: 'version packages'
+          setupGitUser: false
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
