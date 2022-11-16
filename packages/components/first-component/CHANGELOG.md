@@ -1,5 +1,11 @@
 # @yichangmin/web-ui-first-component
 
+## 2.0.0
+
+### Major Changes
+
+- 1d220b0: release
+
 ## 1.0.2
 
 ### Patch Changes
