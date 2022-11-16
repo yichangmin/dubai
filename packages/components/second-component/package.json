@@ -51,7 +51,7 @@
   },
   "scripts": {
     "build": "JSX=1 tsup src/index.ts --dts",
-    "prepack": "node test.js && clean-package",
+    "prepack": "clean-package",
     "postpack": "clean-package restore"
   }
 }
