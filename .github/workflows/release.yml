@@ -15,16 +15,6 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout branch changeset
-        uses: actions/checkout@v3
-        with:
-          ref: changeset-release/main
-          fetch-depth: 0
-          token: ${{ secrets.PACKAGE_TOKEN }}
-
-      - name: Install changeset
-        uses: ./.github/actions/install
-
       - name: Checkout branch
         uses: actions/checkout@v3
         with:
@@ -41,6 +31,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          version: yarn version
           publish: yarn release
           commit: 'ci(changesets): version packages'
           setupGitUser: false

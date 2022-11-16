@@ -40,7 +40,7 @@
     "pre:release": "node ./cheet.js",
     "release": "yarn pre:release && yarn changeset publish && yarn post:release",
     "post:release": "node ./clearcheet.js",
-    "version": "changeset version",
+    "version": "yarn && yarn changeset version",
     "version:dev": "changeset version --snapshot dev",
     "release:dev": "changeset publish --tag dev"
   },
