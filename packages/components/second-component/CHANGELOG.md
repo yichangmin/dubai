@@ -1,5 +1,16 @@
 # @yichangmin/web-ui-second-component
 
+## 1.0.0
+
+### Major Changes
+
+- 1d220b0: release
+
+### Patch Changes
+
+- Updated dependencies [1d220b0]
+  - @yichangmin/web-ui-first-component@2.0.0
+
 ## 0.1.3
 
 ### Patch Changes
