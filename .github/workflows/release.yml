@@ -1,7 +1,12 @@
 name: Release
 run-name: Dubai Release 🚀
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - '.changeset/**'
+      - 'packages/**'
+    branches:
+      - main
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
