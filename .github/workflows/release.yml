@@ -22,9 +22,6 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: changeset
-        run: yarn changeset
-
       - name: publish
         id: changesets
         uses: changesets/action@v1
