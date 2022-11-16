@@ -26,8 +26,9 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          version: yarn changeset version
           publish: yarn release
-          commit: 'ci(changesets): version packages'
+          commit: 'version packages'
           setupGitUser: false
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
