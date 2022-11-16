@@ -1,5 +1,12 @@
 # @yichangmin/web-ui-first-component
 
+## 1.0.0
+
+### Major Changes
+
+- 31cea63: release
+- 35f8501: release
+
 ## 0.0.2
 
 ### Patch Changes
