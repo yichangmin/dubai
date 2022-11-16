@@ -1,6 +1,6 @@
 {
   "name": "@yichangmin/web-ui",
-  "version": "0.0.14",
+  "version": "0.0.23",
   "description": "myrealtrip/web-ui",
   "keywords": [
     "myrealtrip"
@@ -50,6 +50,6 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "build": "rimraf dist && rollup -c --bundleConfigAsCjs"
+    "build": "JSX=1 tsup src/index.ts --dts"
   }
 }

@@ -37,7 +37,9 @@
   "scripts": {
     "build": "turbo run build",
     "storybook": "start-storybook -p 6006",
-    "release": "changeset publish"
+    "pre:release": "node ./cheet.js",
+    "release": "yarn pre:release && yarn changeset publish && yarn post:release",
+    "post:release": "node ./clearcheet.js"
   },
   "dependencies": {
     "react": "^18.2.0",

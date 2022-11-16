@@ -1,7 +1,7 @@
 {
   "name": "@yichangmin/web-ui-second-component",
-  "version": "0.0.14",
-  "description": "myrealtrip/web-ui-second-component",
+  "version": "0.0.23",
+  "description": "yichangmin/web-ui-second-component",
   "keywords": [
     "myrealtrip"
   ],
@@ -50,6 +50,8 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "build": "JSX=1 tsup src/index.ts --dts"
+    "build": "JSX=1 tsup src/index.ts --dts",
+    "prepack": "node test.js && clean-package",
+    "postpack": "clean-package restore"
   }
 }

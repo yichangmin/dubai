@@ -1,4 +1,69 @@
-# @yichangmin/web-ui
+# @yichangmin/web-ui-second-component
+
+## 0.0.23
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.23
+  - @yichangmin/web-ui-second-component@0.0.23
+
+## 0.0.22
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.22
+
+## 0.0.20
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.18
+
+## 0.0.19
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.17
+
+## 0.0.18
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.16
+
+## 0.0.17
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.15
+
+## 0.0.16
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.14
+
+## 0.0.15
+
+### Patch Changes
+
+- test
+- Updated dependencies
+  - @yichangmin/web-ui-first-component@0.0.13
 
 ## 0.0.14
 
@@ -7,7 +72,6 @@
 - ttttest
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.12
-  - @yichangmin/web-ui-second-component@0.0.14
 
 ## 0.0.13
 
@@ -16,7 +80,6 @@
 - tttest
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.11
-  - @yichangmin/web-ui-second-component@0.0.13
 
 ## 0.0.12
 
@@ -25,7 +88,6 @@
 - ttttest
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.10
-  - @yichangmin/web-ui-second-component@0.0.12
 
 ## 0.0.11
 
@@ -34,7 +96,6 @@
 - ttttt
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.9
-  - @yichangmin/web-ui-second-component@0.0.11
 
 ## 0.0.10
 
@@ -45,7 +106,6 @@
 - Updated dependencies [f2ee0e1]
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.8
-  - @yichangmin/web-ui-second-component@0.0.10
 
 ## 0.0.9
 
@@ -53,7 +113,6 @@
 
 - test
 - Updated dependencies
-  - @yichangmin/web-ui-second-component@0.0.9
   - @yichangmin/web-ui-first-component@0.0.7
 
 ## 0.0.8
@@ -61,16 +120,12 @@
 ### Patch Changes
 
 - tttest
-- Updated dependencies
-  - @yichangmin/web-ui-second-component@0.0.8
 
 ## 0.0.7
 
 ### Patch Changes
 
 - test
-- Updated dependencies
-  - @yichangmin/web-ui-second-component@0.0.7
 
 ## 0.0.6
 
@@ -79,7 +134,6 @@
 - test
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.6
-  - @yichangmin/web-ui-second-component@0.0.6
 
 ## 0.0.5
 
@@ -88,7 +142,6 @@
 - test
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.5
-  - @yichangmin/web-ui-second-component@0.0.5
 
 ## 0.0.4
 
@@ -97,7 +150,6 @@
 - tttttest
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.4
-  - @yichangmin/web-ui-second-component@0.0.4
 
 ## 0.0.3
 
@@ -106,7 +158,6 @@
 - test
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.3
-  - @yichangmin/web-ui-second-component@0.0.3
 
 ## 0.0.2
 
@@ -119,7 +170,6 @@
 - Updated dependencies
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.2
-  - @yichangmin/web-ui-second-component@0.0.2
 
 ## 0.0.1
 
@@ -128,4 +178,3 @@
 - package.json files수정
 - Updated dependencies
   - @yichangmin/web-ui-first-component@0.0.1
-  - @yichangmin/web-ui-second-component@0.0.1

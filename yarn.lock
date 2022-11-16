@@ -4709,7 +4709,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@yichangmin/web-ui-second-component@workspace:packages/components/second-component":
+"@yichangmin/web-ui-second-component@workspace:*, @yichangmin/web-ui-second-component@workspace:packages/components/second-component":
   version: 0.0.0-use.local
   resolution: "@yichangmin/web-ui-second-component@workspace:packages/components/second-component"
   dependencies:
@@ -4724,6 +4724,38 @@ __metadata:
     "@types/node": ^10.11.0
     "@types/react": ^18.0.1
     "@yichangmin/web-ui-first-component": "workspace:*"
+    react: ">=18"
+    react-dom: ">=18"
+    rimraf: ^2.6.2
+    rollup: ^3.2.5
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-terser: ^7.0.2
+    rollup-plugin-typescript2: ^0.34.1
+    storybook: ^6.5.13
+    tslib: ^2.3.0
+    typescript: ^4.3.5
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  languageName: unknown
+  linkType: soft
+
+"@yichangmin/web-ui@workspace:packages/components/main-package":
+  version: 0.0.0-use.local
+  resolution: "@yichangmin/web-ui@workspace:packages/components/main-package"
+  dependencies:
+    "@babel/core": ^7.20.2
+    "@babel/preset-env": ^7.15.6
+    "@babel/preset-typescript": ^7.15.0
+    "@rollup/plugin-babel": ^6.0.2
+    "@rollup/plugin-commonjs": ^23.0.2
+    "@rollup/plugin-node-resolve": ^15.0.1
+    "@rollup/plugin-typescript": ^9.0.2
+    "@storybook/react": ^6.5.13
+    "@types/node": ^10.11.0
+    "@types/react": ^18.0.1
+    "@yichangmin/web-ui-first-component": "workspace:*"
+    "@yichangmin/web-ui-second-component": "workspace:*"
     react: ">=18"
     react-dom: ">=18"
     rimraf: ^2.6.2
