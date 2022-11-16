@@ -1,5 +1,11 @@
 # @yichangmin/web-ui-first-component
 
+## 0.0.2
+
+### Patch Changes
+
+- 585e78e: test
+
 ## 0.0.1
 
 ### Patch Changes
