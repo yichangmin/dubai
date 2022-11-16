@@ -1,5 +1,15 @@
 # @yichangmin/web-ui-second-component
 
+## 0.1.0
+
+### Minor Changes
+
+- 18f7d49: test
+
+### Patch Changes
+
+- test
+
 ## 0.0.2
 
 ### Patch Changes
