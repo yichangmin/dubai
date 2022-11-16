@@ -8,6 +8,7 @@ export interface SecondComponentProps {
 }
 
 export const SecondComponent: React.FC<SecondComponentProps> = ({ name, description, title }) => {
+  console.log('test2');
   return (
     <div>
       <h1>{title}</h1>
