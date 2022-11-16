@@ -1,5 +1,11 @@
 # @yichangmin/web-ui-first-component
 
+## 0.0.1
+
+### Patch Changes
+
+- init version
+
 ## 0.0.24
 
 ### Patch Changes
