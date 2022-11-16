@@ -2,6 +2,9 @@ name: Release
 run-name: Dubai Release 🚀
 on:
   workflow_dispatch:
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   release:
     name: Release
@@ -23,6 +26,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          version: yarn changeset version
           publish: yarn release
           commit: 'version packages'
           setupGitUser: false
