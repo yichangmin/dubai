@@ -1,5 +1,11 @@
 # @yichangmin/web-ui-first-component
 
+## 2.1.0
+
+### Minor Changes
+
+- cbc5fc4: tttttt
+
 ## 2.0.0
 
 ### Major Changes
