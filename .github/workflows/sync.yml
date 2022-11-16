@@ -14,7 +14,7 @@ jobs:
       - name: Run GitHub File Sync
         uses: Redocly/repo-file-sync-action@master
         with:
-          GH_PAT: ${{ secrets.SAGE_PAT }}
+          GH_PAT: ${{ secrets.PACKAGE_TOKEN }}
           GIT_EMAIL: changmin.yi@myrealtrip.com
           GIT_USERNAME: yichangmin
           PR_LABELS: |
