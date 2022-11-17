@@ -6,7 +6,6 @@ export interface FirstComponentProps {
 }
 
 export const FirstComponent: React.FC<FirstComponentProps> = ({ name, description }) => {
-  console.log('tttt');
   return (
     <div>
       <p>{name}</p>
