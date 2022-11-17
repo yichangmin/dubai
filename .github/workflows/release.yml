@@ -45,6 +45,7 @@ jobs:
         run: |
           git checkout main
           yarn version:dev
+          yarn pre:release
           yarn release:dev
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
