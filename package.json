@@ -41,8 +41,10 @@
     "release": "yarn pre:release && yarn changeset publish && yarn post:release",
     "post:release": "node ./clearcheet.js",
     "version": "yarn && yarn changeset version",
-    "version:dev": "changeset version --snapshot dev",
-    "release:dev": "changeset publish --tag dev"
+    "pre:release:dev": "yarn pre:release",
+    "release:dev": "changeset publish --tag dev",
+    "post:release:dev": "node ./clearcheet.js",
+    "version:dev": "changeset version --snapshot dev"
   },
   "dependencies": {
     "react": "^18.2.0",
