@@ -1,5 +1,14 @@
 # @yichangmin/web-ui-second-component
 
+## 1.0.2
+
+### Patch Changes
+
+- 74b7ba5: version!
+- Updated dependencies [b26d1c9]
+- Updated dependencies [74b7ba5]
+  - @yichangmin/web-ui-first-component@2.1.1
+
 ## 1.0.1
 
 ### Patch Changes

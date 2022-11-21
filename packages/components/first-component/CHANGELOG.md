@@ -1,5 +1,12 @@
 # @yichangmin/web-ui-first-component
 
+## 2.1.1
+
+### Patch Changes
+
+- b26d1c9: Y
+- 74b7ba5: version!
+
 ## 2.1.0
 
 ### Minor Changes
